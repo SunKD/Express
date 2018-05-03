@@ -28,16 +28,7 @@ app.post('/process', function(req, res){
     ]
     res.render('result', {user: user})
 })
-// post route for adding a user
-// app.get('/plustwo', function (req, res) {
-//     req.session.count++;
-//     res.redirect('/');
-// })
 
-// app.get('/reset', function(req, res){
-//     req.session.destroy();
-//     res.redirect('/');
-// })
 // tell the express app to listen on port 8000
 app.listen(8000, function () {
     console.log("listening on port 8000");
